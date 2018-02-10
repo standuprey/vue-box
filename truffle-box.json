@@ -7,11 +7,10 @@
     "Compile": "truffle compile",
     "Migrate": "truffle migrate",
     "Test contracts": "truffle test",
-    "Test dapp": "npm test",
-    "Run dev server": "npm run start",
-    "Build for production": "npm run build"
+    "Run dev server": "yarn server",
+    "Build for production": "yarn build"
   },
   "hooks": {
-    "post-unpack": "npm install"
+    "post-unpack": "yarn"
   }
 }
