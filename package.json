@@ -1,0 +1,51 @@
+{
+  "name": "vue-box",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve --open",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "author": "Stanislas Duprey",
+  "license": "MIT",
+  "dependencies": {
+    "truffle-contract": "^3.0.3",
+    "vue": "^2.5.13",
+    "vue-router": "^3.0.1",
+    "vuex": "^3.0.1",
+    "web3": "0.20.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.0.0-alpha.11",
+    "@vue/cli-plugin-eslint": "^3.0.0-alpha.11",
+    "@vue/cli-service": "^3.0.0-alpha.11",
+    "@vue/eslint-config-standard": "^3.0.0-alpha.11",
+    "babel-register": "^6.22.0",
+    "node-sass": "^4.7.2",
+    "sass-loader": "^6.0.6",
+    "vue-template-compiler": "^2.5.13"
+  },
+  "babel": {
+    "presets": [
+      "@vue/app"
+    ]
+  },
+  "eslintConfig": {
+    "root": true,
+    "extends": [
+      "plugin:vue/essential",
+      "@vue/standard"
+    ]
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
