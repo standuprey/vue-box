@@ -1,6 +1,6 @@
-# React Truffle Box
+# Vue Truffle Box
 
-This box comes with everything you need to start using smart contracts from a react app. This is as barebones as it gets, so nothing stands in your way.
+This box comes with everything you need to start using smart contracts from a vue app.
 
 ## Installation
 
@@ -11,7 +11,7 @@ This box comes with everything you need to start using smart contracts from a re
 
 2. Download the box. This also takes care of installing the necessary dependencies.
     ```javascript
-    truffle unbox react
+    truffle unbox standup75/vue-box
     ```
 
 3. Run the development console.
